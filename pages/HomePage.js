@@ -9,6 +9,6 @@ export default () => (
       }
     `}</style>
     <h1>React + NextJs + NextRoutes</h1>
-    <h3>i'm changing my site <b>again</b>, just for fun... come back in a few days</h3>
+    <h3>A fast way to launch new web apps ready to use</h3>
   </div>
 )

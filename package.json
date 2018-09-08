@@ -5,7 +5,7 @@
   "private": true,
   "main": "index.js",
   "engines": {
-    "node": ">=8.6"
+    "node": ">=10"
   },
   "author": "Andre Antunes Vieira",
   "license": "ISC",
@@ -44,7 +44,7 @@
     "build": "next build",
     "now-start": "export NODE_ENV=production && npm start",
     "now-build": "export NODE_ENV=production && npm run build",
-    "dev": "nodemon index",
+    "dev": "nodemon index --watch index.js",
     "test": "jest",
     "test:watch": "jest --watch",
     "coverage": "sh bin/test-coverage.sh"
