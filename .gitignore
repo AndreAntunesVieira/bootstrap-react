@@ -1,0 +1,21 @@
+#mac
+.DS_Store
+
+# bower
+/node_modules
+/npm-debug.log
+/npm-shrinkwrap.json
+
+node_modules/
+bower_components/
+.idea
+*.iml
+.vscode
+*.log
+.wakatime-project
+package-lock.json
+yarn.lock
+coverage
+
+#nextjs
+.next

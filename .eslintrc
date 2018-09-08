@@ -1,0 +1,24 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 6
+  },
+  "extends": "angular",
+  "rules": {
+    "angular/controller-as": "off",
+    "angular/controller-as-route": "off",
+    "angular/module-getter": "off",
+    "angular/no-private-call": "off",
+    "angular/window-service": "off"
+  },
+  "globals": {
+    "toastr": true,
+    "app": true,
+    "angular": true,
+    "ga": true,
+    "it": true,
+    "expect": true,
+    "jest": true,
+    "beforeEach": true,
+    "$": true
+  }
+}
